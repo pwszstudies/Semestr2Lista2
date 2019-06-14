@@ -32,8 +32,7 @@ public class Sumowanie {
     //generator liczb
     private static int randomizeNumber() {
         Random randomizeNum = new Random();
-        int number = randomizeNum.nextInt(100);
-        return number;
+        return randomizeNum.nextInt(100);
     }
     // generator tablicy o rozmiarze n
     private static int[] generateTable (int size) {

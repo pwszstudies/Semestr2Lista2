@@ -2,7 +2,7 @@ package zadanie2;
 
 import static zadanie2.operations.*;
 import zadanie2.myRunnable.*;
-public class main {
+public class DodawanieTablic {
     public static void main(String[] args) throws InterruptedException {
         int amount = 1000000;
         int[] intTabA = new int[amount];

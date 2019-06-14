@@ -1,15 +1,14 @@
 package zadanie2;
 
-import java.sql.SQLOutput;
 
-public class myRunnable {
+class myRunnable {
 
     public static class MyRunnable1 implements Runnable {
         private int[] tabA;
         private int[] tabB;
         private int[] tabC;
 
-        public MyRunnable1(int[] tabA, int[] tabB, int[] tabC) {
+        MyRunnable1(int[] tabA, int[] tabB, int[] tabC) {
             this.tabA = tabA;
             this.tabB = tabB;
             this.tabC = tabC;
@@ -30,7 +29,7 @@ public class myRunnable {
         private int[] tabB;
         private int[] tabC;
 
-        public MyRunnable2(int[] tabA, int[] tabB, int[] tabC) {
+        MyRunnable2(int[] tabA, int[] tabB, int[] tabC) {
             this.tabA = tabA;
             this.tabB = tabB;
             this.tabC = tabC;
@@ -50,7 +49,7 @@ public class myRunnable {
         private int[] tabB;
         private int[] tabC;
 
-        public MyRunnable(int[] tabA, int[] tabB, int[] tabC) {
+        MyRunnable(int[] tabA, int[] tabB, int[] tabC) {
             this.tabA = tabA;
             this.tabB = tabB;
             this.tabC = tabC;

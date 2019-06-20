@@ -20,21 +20,11 @@ public class Sumowanie {
 
     }
 
-
-
-//        static class SumThread extends Thread {
-//            public SumThread(String name) {
-//                super(name);
-//            }
-//
-//        }
-
-    //generator liczb
     private static int randomizeNumber() {
         Random randomizeNum = new Random();
         return randomizeNum.nextInt(100);
     }
-    // generator tablicy o rozmiarze n
+
     private static int[] generateTable (int size) {
         int[] numTab = new int[size];
         for (int i = 0; i < size; i++) {

@@ -1,4 +1,4 @@
-package s2l2;
+package zadania1i3;
 
 public class Odliczanie {
     public static void main(String[] args) throws InterruptedException {

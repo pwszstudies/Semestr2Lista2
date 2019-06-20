@@ -1,4 +1,4 @@
-package s2l2;
+package zadania1i3;
 
 import java.util.Arrays;
 import java.util.Random;
